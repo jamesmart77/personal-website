@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!-- bootstrap 4 style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- bootsrap for cdn -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <title>James Martineau</title>
+</head>
+
+<body>
+    <!-- Slider main container -->
+    <div class="row" id="main-row">
+        <div class="col-md-4 left-container">
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <!-- <div class="container left-container"> -->
+                        <div class="card">
+                            <h3 class="card-header">The Story</h3>
+                            <div class="card-block">
+                                <h4 class="card-title">Special title treatment</h4>
+                                <p class="card-text" id="story-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!-- <div class="container left-container"> -->
+                        <div class="card">
+                            <h3 class="card-header">Code is a Passion</h3>
+                            <div class="card-block">
+                                <h4 class="card-title">Special title treatment</h4>
+                                <p class="card-text passion-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="col-md-auto">
+            <div class="container main-container">
+                <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Project Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Technologies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Connect With Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS TO ANIMATE SIDE PANELS -->
+    <script src="assets/js/panelAnimation.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+        // var mySwiper = new Swiper('.swiper-container', {
+        //     // Optional parameters
+        //     direction: 'vertical',
+        //     loop: true,
+
+        //     // If we need pagination
+        //     pagination: {
+        //         el: '.swiper-pagination',
+        //     },
+
+        //     // And if we need scrollbar
+        //     scrollbar: {
+        //         el: '.swiper-scrollbar',
+        //     },
+
+        //     mousewheel: {
+        //         sensitivity: 2,
+        //         eventsTarged: 'body'
+        //     }
+        // })
+    </script>
+</body>
+
+</html>

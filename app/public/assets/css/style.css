@@ -1,0 +1,93 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ============================================== */
+
+
+/* SWIPER LEFT CONTAINER */
+
+.swiper-container {
+    height: 100vh;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    left: -34%;
+}
+
+.swiper-slide {
+    height: 100vh;
+}
+
+
+.left-container {
+    left: -34%;
+}
+
+.card {
+    height: 100vh;
+}
+
+
+/* ============================================== */
+
+
+/* NAV BAR CSS */
+
+.col-md-auto{
+    height: 100vh;
+}
+/* background color of navbar */
+
+.bg-inverse {
+    background-color: transparent !important;
+}
+
+
+/* sizing */
+
+#navbarNav {
+    width: auto;
+    margin: 0 auto;
+}
+
+
+/* navbar links */
+
+.nav-item {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 20px;
+}
+
+
+/* formatting for collapsable */
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-toggler {
+    color: lightgray;
+    border-color: lightgray;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: lightgray;
+}
+
+.navbar-inverse .navbar-nav .nav-link:hover {
+    color: gray;
+}
+
+
+/* ============================================== */
+
+@media screen and (max-width: 1400px) {
+    .nav-item {
+        font-size: 24px;
+        text-align: center;
+    }
+}

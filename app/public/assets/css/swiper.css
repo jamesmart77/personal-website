@@ -1,0 +1,12 @@
+.swiper-container {
+    width: 600px;
+    height: 100vh;
+    background-color: aquamarine;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.swiper-slide{
+    height: 100vh;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "James Martineau Personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesmart77/personal-website.git"
+  },
+  "author": "James Martineau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesmart77/personal-website/issues"
+  },
+  "homepage": "https://github.com/jamesmart77/personal-website#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "swiper": "^4.0.7"
+  }
+}
