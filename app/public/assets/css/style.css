@@ -37,6 +37,14 @@ body {
     height: 100vh;
 }
 
+.swiper-pagination-bullet-active {
+    background: #c03e5e;
+}
+/* 
+.swiper-pagination-bullet{
+    background-color: #595856;
+} */
+
 .card {
     height: 100vh;
 }
