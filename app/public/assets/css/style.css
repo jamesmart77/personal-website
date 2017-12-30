@@ -1,32 +1,38 @@
 body {
-    background-image: url("../images/background.jpg");
+    background-color: #ffffff;
+}
+
+.master-container{
+    background-image: url("../images/background_profile.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: 0% -75px;
 }
 
+#main-row{
+    height: 100vh;
+}
 
 /* ============================================== */
 
 
 /* SWIPER LEFT CONTAINER */
 
+.left-container {
+    left: -34%;
+}
+
 .swiper-container {
     height: 100vh;
-    background-color: aquamarine;
+    background-color: #ffffff;
     position: fixed;
     top: 0;
-    left: -34%;
+    left: -35%;
 }
 
 .swiper-slide {
     height: 100vh;
-}
-
-
-.left-container {
-    left: -34%;
 }
 
 .card {
@@ -39,15 +45,11 @@ body {
 
 /* NAV BAR CSS */
 
-.col-md-auto{
-    height: 100vh;
-}
 /* background color of navbar */
 
 .bg-inverse {
     background-color: transparent !important;
 }
-
 
 /* sizing */
 
@@ -70,16 +72,16 @@ body {
 
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-toggler {
-    color: lightgray;
+    color: #595856;
     border-color: lightgray;
 }
 
 .navbar-inverse .navbar-nav .nav-link {
-    color: lightgray;
+    color: #595856;
 }
 
 .navbar-inverse .navbar-nav .nav-link:hover {
-    color: gray;
+    color: #c03e5e;
 }
 
 

@@ -26,48 +26,49 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <title>James Martineau</title>
 </head>
 
 <body>
     <!-- Slider main container -->
-    <div class="row" id="main-row">
-        <div class="col-md-4 left-container">
-            <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <!-- <div class="container left-container"> -->
-                        <div class="card">
-                            <h3 class="card-header">The Story</h3>
-                            <div class="card-block">
-                                <h4 class="card-title">Special title treatment</h4>
-                                <p class="card-text" id="story-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="container-fluid master-container">
+        <div class="row" id="main-row">
+            <div class="left-container">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <!-- <div class="container left-container"> -->
+                            <div class="card">
+                                <h3 class="card-header">The Story</h3>
+                                <div class="card-block">
+                                    <h4 class="card-title">Special title treatment</h4>
+                                    <p class="card-text" id="story-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
-                        <!-- <div class="container left-container"> -->
-                        <div class="card">
-                            <h3 class="card-header">Code is a Passion</h3>
-                            <div class="card-block">
-                                <h4 class="card-title">Special title treatment</h4>
-                                <p class="card-text passion-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="swiper-slide">
+                            <!-- <div class="container left-container"> -->
+                            <div class="card">
+                                <h3 class="card-header">Code is a Passion</h3>
+                                <div class="card-block">
+                                    <h4 class="card-title">Special title treatment</h4>
+                                    <p class="card-text passion-text">With supporting text below as a natural lead-in to additional content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
             </div>
-        </div>
-        <div class="col-md-auto">
-            <div class="container main-container">
+            <div class="container-fluid main-container">
                 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -97,28 +98,6 @@
     <!-- JS TO ANIMATE SIDE PANELS -->
     <script src="assets/js/panelAnimation.js"></script>
     <script src="js/swiper.min.js"></script>
-    <script>
-        // var mySwiper = new Swiper('.swiper-container', {
-        //     // Optional parameters
-        //     direction: 'vertical',
-        //     loop: true,
-
-        //     // If we need pagination
-        //     pagination: {
-        //         el: '.swiper-pagination',
-        //     },
-
-        //     // And if we need scrollbar
-        //     scrollbar: {
-        //         el: '.swiper-scrollbar',
-        //     },
-
-        //     mousewheel: {
-        //         sensitivity: 2,
-        //         eventsTarged: 'body'
-        //     }
-        // })
-    </script>
 </body>
 
 </html>
